@@ -1,0 +1,14 @@
+<Pelicula>
+	<Titulo>Los odiosos 8</Titulo>
+	<Coincidencia>82%</Coincidencia>
+	<Sinopsis>Años despues de la guerra de Secesion, una tormenta retiene a un cazador de recompensas y a su prisionera en un refugio con seis peligrosos desconocidos.</Sinopsis>
+	<Año>2015</Año>
+	<Duracion>2h 47 min</Duracion>
+	<Reparto>Samuel L. Jackson, Kurt Rusell, Jennifer Jason Leigh, Walton Goggins, Demian Bichir y mas </Reparto>
+	<Guionista>Quetin Tarantino</Guionista>
+	<Generos>Peliculas del Oeste, Thrillers</Generos>
+	<Pertenece_a>Violenta, descarnada</Pertenece_a>
+	<Calificacion_por_edades>No recomendada para menores de 18</Calificacion_por_edades>
+	
+	
+</Pelicula>
