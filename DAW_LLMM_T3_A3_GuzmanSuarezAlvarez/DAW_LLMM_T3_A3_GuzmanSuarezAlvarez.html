@@ -19,17 +19,26 @@
       margin: 24px;
     }
     img {
-      width: 50%;
+      width: 100px;
+      /* position: absolute; */
+      right: 20px;
     }
     .tarjeta:nth-child(even) h2 {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 24px;
       font-weight: 700;
+      left: 400px;
     }
     .tarjeta:nth-child(odd) h2 {
       font-family: "Times New Roman", Times, serif;
       font-size: 24px;
       font-weight: 700;
+    }
+    .tarjeta:nth-child(even) {
+      position: absolute;
+      left: 1000px;
+    }
+    .tarjeta:nth-child(odd) {
     }
     .p {
       font-size: 16px;
@@ -43,7 +52,7 @@
       <h2>Paisaje1</h2>
       <p>Pues una foto con un paisaje morado</p>
     </div>
-    <div class="tarjeta" style="background-color: white">
+    <div class="tarjeta" style="background-color: white; top: 0px">
       <img src="img/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg" />
       <h2>Paisaje2</h2>
       <p>Pues una foto con un paisaje</p>
@@ -53,7 +62,7 @@
       <h2>Paisaje3</h2>
       <p>Pues una foto con un paisaje 2</p>
     </div>
-    <div class="tarjeta" style="background-color: lightgray">
+    <div class="tarjeta" style="background-color: lightgray; top: 250px">
       <img src="img/shutterstock_510679489-scaled.jpg" />
       <h2>Paisaje4</h2>
       <p>Pues una foto con otro paisaje</p>
