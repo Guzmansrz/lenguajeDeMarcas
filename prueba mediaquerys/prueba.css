@@ -1,0 +1,32 @@
+/* 1 */
+@media all and (min-width: 800px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 800px) {
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+/* 2 */
+@media all and (orientation: portrait) and (min-width: 600px) {
+}
+
+@media all and (min-width: 768px) {
+  * {
+    background-color: lightgray;
+  }
+}
+
+@media screen, print and (min-width: 768px) {
+  * {
+    line-height: 1.2;
+  }
+}
